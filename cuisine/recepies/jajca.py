@@ -1,4 +1,4 @@
-from cuisine.ingredients.jaje import Jaje
+from cuisine.ingredients import *
 
 class Jajca:
     @staticmethod
