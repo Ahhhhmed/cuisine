@@ -1,5 +1,7 @@
-import cuisine.jajca
+import cuisine.recepies
+import cuisine.ingredients
+import sys
 
 def main():
-    print("Instructions: ", cuisine.jajca.Jajca().instructions())
-    print("Ingredients: ", cuisine.jajca.sastojci)
+    print("Instructions: ", cuisine.recepies.l[sys.argv[1]]().instructions())
+    print("Ingredients: ", cuisine.ingredients.bucket)
