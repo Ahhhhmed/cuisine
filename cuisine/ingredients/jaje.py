@@ -1,4 +1,4 @@
-from cuisine.ingredients import add
+from cuisine.bucket import add
 
 class Jaje:
     @staticmethod
