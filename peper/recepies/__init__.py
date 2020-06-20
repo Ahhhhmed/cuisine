@@ -1,5 +1,5 @@
-import peper.recepies.jajca as jajca
+from peper.recepies.jajca import Jajca
 
 l = {
-    "jajca": jajca.Jajca
+    "jajca": Jajca
 }
