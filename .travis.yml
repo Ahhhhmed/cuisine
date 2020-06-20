@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pypi
   user: __token__
-  on:
-    tags: true
   password:
     secure: bAMy7in9yWAvfBJNqRs/XGWMh8NABLdps103T0oyuQRr98Z59FW0Xa1tiv7c6utNvLDzQKP3Hkljjf5uh0FjzOtNS2Mstu4ca2U0lcCELko0RL6rttf6P6g3fDM/pCIQxOwSZSkO+C3ZX8Ya3ZYihFkJdxUbcX/mAKXWPdc4st8zCiM3PYxUpIghW0IXKSKtZHi376c8jQ1PPllu2Sl3pew4KJZXUwbhrva8p6Cyqa4tzUhgPf8zM9xM0NBtXHXf8VBU+aON3KUE7+tCKz50msyjTpKSpvoESWk+qGdRppfVnAdqO5awJ/6VkWw/2tPM5qdEPzxE/fNPUOAzQv5xaxU7VRYxe7mnBgpgWLborH4d9pc67Oa8hAFErnlm2HFXhn5m9HKrJuEvNb2aJcv5Y0LOuY+LGqoBFG6dqcF0BkjdNW5xjfGJAvkI6A6AAWv1ndn9oTp0vzzheX73eXa5MEYeLFLuSJAAhX28Vxa2eFejiWxV506D3lXF46pnrbevHph9ZbjEGkbBpcbvhgZoouj9+bHYGkA/T1nxzbTRZ/ec5WHLfwEfvpaokdrt1ZOGVql9iQapkxHinq+AQTRbO0fa0iKWfzAb1MoVb1Q2VgO8e53lDtvjG1WVkopcmaO+qaddGrkHX/t56b4fD5PuVmLhegolc27JCeMFQQWK+Y4=
+  on:
+    tags: true
