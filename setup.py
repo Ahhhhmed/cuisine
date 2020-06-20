@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="peper",
-    version="0.0.5",
+    version="0.0.6",
     author="Nenad",
     author_email="Ahhhhmed@gmail.com",
     description="A bunch of recepies.",
     long_description=long_description,
     long_description_content_type='text/markdown',
     url="https://github.com/ahhhhmed/peper",
-    packages=setuptools.find_packages(),
+    packages=["peper"],
     classifiers=[
         "Programming Language :: Python :: 3",
     ],
