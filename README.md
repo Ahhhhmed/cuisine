@@ -1,3 +1,3 @@
-[![Build Status](https://travis-ci.org/Ahhhhmed/cuisine.svg?branch=master)](https://travis-ci.org/Ahhhhmed/cuisine)
+[![Build Status](https://travis-ci.org/Ahhhhmed/peper.svg?branch=master)](https://travis-ci.org/Ahhhhmed/peper)
 
-# cuisine
+# peper

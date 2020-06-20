@@ -1,5 +1,5 @@
-import cuisine.recepies
-import cuisine.bucket
+import peper.recepies
+import peper.bucket
 import sys
 import argparse
 
@@ -10,9 +10,9 @@ def main():
 
     args = parser.parse_args()
 
-    if args.recepie not in cuisine.recepies.l.keys():
+    if args.recepie not in peper.recepies.l.keys():
         print("Recepie not found")
         exit()
 
-    print("Instructions: ", cuisine.recepies.l[args.recepie]().instructions())
-    print("Ingredients: ", cuisine.bucket.bucket)
+    print("Instructions: ", peper.recepies.l[args.recepie]().instructions())
+    print("Ingredients: ", peper.bucket.bucket)

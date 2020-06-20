@@ -1,4 +1,4 @@
-from cuisine.bucket import add
+from peper.bucket import add
 
 class Jaje:
     @staticmethod

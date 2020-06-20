@@ -1,4 +1,4 @@
-from cuisine.ingredients import *
+from peper.ingredients import *
 
 class Jajca:
     @staticmethod

@@ -1,10 +1,10 @@
 from unittest import TestCase
 from unittest.mock import patch, call
 
-import cuisine.__main__
+import peper.__main__
 
 
 class TestMain(TestCase):
     def test_main(self):
         with patch("sys.argv", ["test", "jajca"]):
-            cuisine.__main__.main()
+            peper.__main__.main()

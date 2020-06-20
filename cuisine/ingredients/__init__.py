@@ -1,1 +1,0 @@
-from cuisine.ingredients.jaje import Jaje

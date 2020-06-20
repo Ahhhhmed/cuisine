@@ -1,4 +1,4 @@
-import cuisine.recepies.jajca
+import peper.recepies.jajca
 
 l = {
     "jajca": jajca.Jajca
