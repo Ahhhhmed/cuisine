@@ -1,4 +1,4 @@
-from peper.bucket import add
+from peper.buckets import Ingredients
 
 class Jaje:
     @staticmethod
@@ -7,5 +7,5 @@ class Jaje:
 
     @staticmethod
     def komada(x):
-        add("jaje", x)
+        Ingredients.add("jaje", x)
         return "jaje" if x == 1 else f"{x} jajeta"

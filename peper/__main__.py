@@ -1,12 +1,11 @@
 import peper.recepies
-import peper.bucket
+import peper.buckets
 import sys
 import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Compile a snippet.")
-    parser.add_argument('recepie', type=str,
-                        help='Recepie name')
+    parser.add_argument('recepie', type=str, help='Recepie name')
 
     args = parser.parse_args()
 
@@ -14,5 +13,16 @@ def main():
         print("Recepie not found")
         exit()
 
-    print("Instructions: ", peper.recepies.l[args.recepie]().instructions())
-    print("Ingredients: ", peper.bucket.bucket)
+    peper.recepies.l[args.recepie]().exec()
+
+    print("Instructions:")
+    i = 1
+    for x in peper.buckets.Instructions.bucket:
+        if x["level"] == peper.buckets.Instructions.step_level:
+            print(f"Step {i}: {x['val']}")
+            i += 1
+        if x["level"] == peper.buckets.Instructions.tip_level:
+            print(f"tip: {x['val']}")
+    print()
+    print("Ingredients:")
+    print(peper.buckets.Ingredients.bucket)
